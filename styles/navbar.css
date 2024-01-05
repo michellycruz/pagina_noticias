@@ -1,1 +1,58 @@
 @charset "UTF-8";
+@import url(colors.css);
+
+
+.headerContainer{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+
+.mobileMenu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobileMenu div{
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+}
+
+.nav-list.active{
+    transform: translateX(0);
+}
+
+/* X da navbar mobile */
+
+.mobileMenu.active .line1{
+    transition: 0.5s;
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobileMenu.active .line2{
+    opacity: 0;
+}
+
+.mobileMenu.active .line3{
+    transition: 0.5s;
+    transform: rotate(45deg) translate(-5px, 8px);
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar > .nav-list{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.navbar > .nav-list > .nav-link{
+    text-decoration: none;
+    color: var(--transparent-blue);
+}
