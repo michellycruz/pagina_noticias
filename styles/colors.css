@@ -1,8 +1,7 @@
 @charset "utf-8";
 
 :root{
-    --dark-blue: #00001A;
-    --transparent-blue: #00001aa1;
-    --mustard-yellow: #E1A84E;
-    --salmon: #F15D51;
-};
+    --laranjao: #ff6f00;
+    --branquelao: #ffffff;
+    --cinzao: #1f1d1d;
+}
