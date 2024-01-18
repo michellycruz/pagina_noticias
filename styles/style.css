@@ -8,9 +8,19 @@
     font-family: 'nocturne', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
 
-main{
-    padding: 20px;
-    margin: 20px;
-    text-align: justify;
+.header{
+    background-color: var(--cinzao);
+    padding-inline: 16px;
+}
+
+.nav{
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
 }
